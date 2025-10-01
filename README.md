@@ -1,6 +1,6 @@
 # GameOps
 Full-Stack Distributed Gaming Platform
-This project is an updated version of my previous work, with new modules and features added. It is currently under testing and being re-uploaded.
+## This project is an updated version of my previous work, with new modules and features added. It is currently under testing and being re-uploaded.
 
 
 ## Overview
