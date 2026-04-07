@@ -3,7 +3,7 @@
 
 **Start Date: April 6, 2026**
 
-This project is an upgraded and actively maintained version of my previous work, with new modules, features, and system improvements continuously being developed and integrated.
+This project is an actively developed system that evolves from earlier prototypes, with new modules, features, and system improvements continuously being integrated.
 
 ---
 
@@ -16,6 +16,18 @@ It focuses on handling asynchronous messaging, scalability, and real-time data f
 The project demonstrates system design capabilities including high concurrency handling, event-driven architecture, and distributed data processing.
 
 ---
+## Current Status
+
+This project is actively under development.
+
+- Initial multi-module architecture has been established
+- Core service structure is in place
+- Event-driven workflow is being implemented
+
+Planned next steps:
+- Implement Kafka-based event pipeline
+- Add matchmaking logic using Redis
+- Improve system scalability and real-time processing
 
 ## 🚧 Current Development Focus  
 
@@ -34,7 +46,7 @@ Ongoing work includes:
 ## ⚙️ Features  
 
 - Real-time gameplay events managed via Kafka event queues to decouple game logic and user actions  
-- Scalable architecture supporting 1,000+ concurrent players and 10,000+ messages/minute under stress tests  
+- Designed to support high concurrency scenarios with scalable event processing and efficient message handling
 - Low-latency performance enabled by Redis caching with TTL policies for hot session data  
 - Resilient backend built with Spring Boot and PostgreSQL for reliable data storage  
 - Modern frontend developed with React + Axios, delivering a responsive user interface  
